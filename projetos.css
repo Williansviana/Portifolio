@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-color: #c2c2c2;
+
+
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+.projeto {
+
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px;
+   
+    
+}
+
+
+.img-projeto {
+
+    width: 160px;
+    height: 200px;
+    background-color: black;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    border-radius: 15px;
+    
+
+}
+
+
+
+img {
+
+    width: 170px;
+    margin: 10px -8px;
+    margin-bottom: 20px;
+
+
+}
+
+.efeito {
+    transition: .10s;
+
+}
+
+.img-projeto:hover {
+    opacity: .4s;
+    transform: scale(.9);
+}
+
+a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.java {
+    width: 330px;
+    margin: 10px -83px;
+}
+
+
+.proximo {
+    width: 150px;
+    margin: 5px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    margin: -100px 5px 10px 640px;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    border: double;
+}
+
+
+/* Responsivo para Celulares*/
+/* Pagina Formação*/
+
+@media(max-width:492px) {
+
+    h1{
+        font-size: 15px;
+    }
+
+    .projeto {
+
+       
+        justify-content: center;
+        margin: 20px 20px;
+        width: 10px;
+        height: 180px;
+        margin: 20px 50px 50px 60px;
+        padding: 10px;
+       
+    }
+
+    .img-projeto {
+        display: flex;
+        
+        width: 170px;
+       
+        
+       
+     
+    
+    }
+
+    
+}

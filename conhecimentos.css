@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #c2c2c2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills {
+    width: 500px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #c2c2c2;
+    box-shadow: 0 15px 20px #00000027, 0 -5px 5px #00000027
+}
+
+.skills ul {
+    list-style: none;
+
+}
+
+.skills ul li {
+    margin: 20px 0;
+
+}
+
+.skills .barras {
+    background-color: #ccc;
+    display: block;
+    border-radius: 20px;
+    height: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: .5s ease-in-out;
+}
+
+.barras>span {
+    height: 20px;
+    background: linear-gradient(to right, #fe4701, #ff0054);
+    position: absolute;
+    
+
+
+}
+
+
+.html {
+    width: 92%;
+    animation: html 3s;
+    
+}
+
+.css {
+    width: 85%;
+    animation: css 3s;
+
+}
+
+.javascript {
+    width: 17%;
+    animation: javascript 3s;
+}
+
+.github {
+    width: 100%;
+    animation: github 3s;
+
+}
+
+.nodejs {
+    width: 2%;
+    animation:nodejs 3s;
+}
+
+.react {
+    width: 1%;
+    animation:react 3s;
+}
+
+@keyframes html{
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 92%;
+    }
+
+}
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 85%;
+    }
+
+}
+@keyframes javascript {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 17%;
+    }
+
+}
+@keyframes github {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+
+}
+@keyframes nodejs {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 2%;
+    }
+
+}
+@keyframes react {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 1%;
+    }
+
+}
+
+.botao-2{
+  margin: 3px 175px;
+  border-radius: 3px;
+  border: none;
+  padding: 5px;
+  border:double
+
+
+    
+   
+    
+   
+}
+
+button a{
+    font-size: 18px;
+    text-decoration: none;
+    
+    
+}
+
+
+
+/* Responsivo para Celulares*/
+/* Pagina Conhecimentos*/
+
+@media(max-width:492px) {
+
+    body {
+        height: 100vh;
+        background-color: #c2c2c2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skills {
+        width: 350px;
+        padding: 40px;
+        border-radius: 20px;
+        background-color: #c2c2c2;
+        box-shadow: 0 15px 20px #00000027, 0 -5px 5px #00000027
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+    
+    .botao-2{
+        font-size: 2px;
+        margin-left: 100px;
+        margin-top: 20px;
+        width: 60px;
+       
+    }
+    
+
+}

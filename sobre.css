@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+body {
+    background-color: #c2c2c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cor-fundo {
+    background-color: black;
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+    color: white;
+    margin-top: 36px;
+    border-radius: 20px;
+    margin-bottom: 36px;
+
+
+
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin: 20px;
+}
+
+.texto {
+    font-size: 25px;
+
+}
+
+.texto-1 {
+    font-size: 23px;
+    line-height: 24px;
+    letter-spacing: 1px;
+
+
+}
+
+.botao {
+
+    font-size: 18px;
+    padding: 5px;
+    margin: 9px;
+    border: double;
+    border-radius: 5px;
+
+
+}
+
+img {
+    background-color: white;
+
+}
+
+
+
+
+a:link {
+    text-decoration: none;
+
+
+}
+
+p {
+    font-size: 20px;
+    text-align: left;
+    margin: 5px;
+
+}
+
+/* Responsivo para Celulares*/
+/* Pagina Formação*/
+
+@media(max-width:492px) {
+
+    .cor-fundo {
+        background-color: black;
+        text-align: center;
+        max-width: 350px;
+        padding: 20px;
+        color: white;
+        margin-top: 36px;
+        border-radius: 20px;
+        margin-bottom: 36px;
+
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    .texto{
+        font-size: 14px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    .paragrafo{
+        font-size: 14px;
+    }
+
+    .botao {
+
+        font-size: 14px;
+        padding: 5px;
+        margin: 9px;
+        border: double;
+        border-radius: 5px;
+    
+    
+    }
+
+}

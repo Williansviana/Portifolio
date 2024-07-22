@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+.inicio {
+    background-color: rgb(10, 8, 8);
+    padding: 20px;
+    width: 100vw;
+    text-decoration: none;
+
+
+}
+
+.inicio-1 {
+    text-decoration: none;
+    color: white;
+    margin: 50px;
+    font-size: 20px;
+}
+
+.inicio-1:hover {
+
+    font-size: 22px;
+    color: #6B8E23;
+    transition: 0.9s color ease-in-out;
+
+}
+
+.video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    top: 0;
+    opacity: 0.9;
+
+}
+
+.video video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+}
+
+.nome {
+    font-size: 20px;
+    margin: 40px;
+    
+    color: white;
+    opacity: 0.6;
+    width: 370px;
+    display: block;
+    margin: 200px auto;
+    text-align: center;
+    padding: 20px
+    
+    
+}
+
+h2{
+    position: absolute;
+    left:  180px;
+    bottom: 380px;
+
+    
+}
+
+h4{
+    position: absolute;
+    left:  185px;
+    bottom: 355px;
+   
+}
+
+.foto {
+    width: 10px;
+    height: 10px;
+}
+
+
+
+footer {
+    background-color: rgb(10, 8, 8);
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 20px
+    
+}
+
+.link-whatsapp {
+    position: fixed;
+    width: 60px;
+    margin: 430px 0 0 1260px;
+
+}
+
+/* Responsivo para Celulares*/
+/* Pagina index*/
+
+@media(max-width:492px) {
+
+    .inicio {
+        display: flex;
+
+    }
+
+    .inicio-1 {
+        font-size: 14px;
+        margin-left: 1px;
+        margin: 10px;
+
+    }
+
+    .inicio-1:hover {
+
+        font-size: 12px;
+        color: #6B8E23;
+        transition: 0.9s color ease-in-out;
+
+    }
+
+    .nome{
+        font-size: 12px;
+        margin: 80px 10px 10px 10px;
+    }
+
+    .video {
+
+        position: fixed;
+        z-index: -2;
+        top: 0;
+        opacity: 0.9;
+        margin: 60px 0px 0px 0px;
+
+    }
+
+   
+
+    .nome {
+        font-size: 6px;
+        margin-left: -60px;
+        margin-top: 80px;
+
+
+    }
+
+    h2{
+        position: absolute;
+        left:  140px;
+        bottom: 500px; 
+        font-size: 18px; 
+        
+    }
+
+    h4{
+        position: absolute;
+        left:  125px;
+        bottom: 480px;
+        font-size: 15px;
+      
+       
+    }
+
+    .link-whatsapp{
+        margin-left: 410px;
+        position: fixed;
+        width: 45px;
+
+    }
+
+
+    footer {
+        position: fixed;
+        background-color: rgb(10, 8, 8);
+      
+      
+       
+    }
+
+
+}

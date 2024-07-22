@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c2c2c2;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+}
+
+.contato {
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: -5px;
+
+}
+
+
+
+
+input {
+    font-size: 15px;
+    display: block;
+    margin: 20px;
+    border-radius: 3px;
+    padding: 5px;
+    border: none;
+
+
+}
+
+textarea {
+    font-size: 15px;
+    margin: 20px;
+    padding: 5px;
+    transition: all 0.5s;
+
+}
+
+button {
+    display: block;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    border: double
+}
+
+.btn:hover {
+    color: blue;
+    font-size: 14px;
+    transition: 0.5s color ease-in-out;
+    
+}
+
+.voltar {
+    position: fixed;
+    font-size: 18px;
+    margin: 570px 650px;
+    border-radius: 3px;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.voltar {
+
+    opacity: .5s;
+    transition: .5s color red ease-in-out;
+
+}
+
+@media(max-width:492px) {
+
+    h1 {
+        text-align: center;
+        margin-top: 5px;
+        color: white;
+        font-size: 30px;
+    }
+
+    .contato {
+        background-color: black;
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: -5px;
+    
+    }
+
+    .voltar {
+        position: fixed;
+        font-size: 14px;
+        margin: 570px 650px;
+        border-radius: 3px;
+        margin-left: 200px;
+    
+    }
+}
