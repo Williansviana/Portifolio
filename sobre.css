@@ -83,7 +83,7 @@ p {
 /* Responsivo para Celulares*/
 /* Pagina Formação*/
 
-@media(max-width:492px) {
+@media (max-width: 600px) {
 
     .cor-fundo {
         background-color: black;

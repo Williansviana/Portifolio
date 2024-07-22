@@ -111,7 +111,7 @@ footer {
 /* Responsivo para Celulares*/
 /* Pagina index*/
 
-@media(max-width:492px) {
+@media (max-width: 600px) {
 
     .inicio {
         

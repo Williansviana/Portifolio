@@ -87,7 +87,7 @@ a:link {
 
 }
 
-@media(max-width:492px) {
+@media (max-width: 600px) {
 
     h1 {
         text-align: center;

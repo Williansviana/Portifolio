@@ -171,7 +171,7 @@ button a{
 /* Responsivo para Celulares*/
 /* Pagina Conhecimentos*/
 
-@media(max-width:492px) {
+@media (max-width: 600px) {
 
     body {
         height: 100vh;
