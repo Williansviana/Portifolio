@@ -52,23 +52,24 @@ a:link{
 
     body{
         background-color: #c2c2c2;
+        
     }
     
 
     h1{
-        font-size: 15px;
+        font-size: 20px;
+        
+        
     
     }
 
     img{
         
-        width: 400px;
-        height: 200px;
-        margin: 30px;
-        margin-left: 200px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        width: 350px;
+        height: 250px;
+        padding: 30px;
+        margin: 10px 220px;
+      
         
         
     

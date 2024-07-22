@@ -160,15 +160,17 @@ footer {
 
     h2{
         position: absolute;
-        left:  140px;
+        left:  110px;
         bottom: 500px; 
+        top: 130px;
         font-size: 18px; 
         
     }
 
     h4{
         position: absolute;
-        left:  125px;
+        left:  100px;
+        top: 150px;
         bottom: 480px;
         font-size: 15px;
       
@@ -176,7 +178,8 @@ footer {
     }
 
     .link-whatsapp{
-        margin-left: 410px;
+        margin-left: 320px;
+        bottom: 90px;
         position: fixed;
         width: 45px;
 
