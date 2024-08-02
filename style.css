@@ -43,7 +43,7 @@
 
 }
 
-.video video{
+.video video {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -56,7 +56,7 @@
 .nome {
     font-size: 20px;
     margin: 40px;
-    
+
     color: white;
     opacity: 0.6;
     width: 370px;
@@ -64,23 +64,21 @@
     margin: 200px auto;
     text-align: center;
     padding: 20px
-    
-    
 }
 
-h2{
+h2 {
     position: absolute;
-    left:  180px;
+    left: 180px;
     bottom: 380px;
 
-    
+
 }
 
-h4{
+h4 {
     position: absolute;
-    left:  185px;
+    left: 185px;
     bottom: 355px;
-   
+
 }
 
 .foto {
@@ -91,21 +89,31 @@ h4{
 
 
 footer {
-    background-color: rgb(10, 8, 8);
+    background-color: black;
     color: white;
     font-size: 13px;
     position: absolute;
     bottom: 0px;
     width: 100%;
-    padding: 20px
+    padding: 10px
     
 }
 
-.link-whatsapp {
-    position: fixed;
-    width: 60px;
-    margin: 430px 0 0 1260px;
 
+
+
+
+.link-whatsapp {
+    position: absolute;
+    width: 60px;
+    margin: 457px 0 0 1270px;
+
+
+}
+
+.numb{
+    
+   margin-right: 50px;
 }
 
 /* Responsivo para Celulares*/
@@ -114,16 +122,16 @@ footer {
 @media (max-width: 600px) {
 
     .inicio {
-        
+
         display: flex;
-        
+
     }
 
     .inicio-1 {
-        
+
         font-size: 15px;
-        
-       
+
+
         margin: 5px 0 5px;
         padding: 5px;
 
@@ -137,7 +145,7 @@ footer {
 
     }
 
-    .nome{
+    .nome {
         font-size: 12px;
         margin: 80px 10px 10px 10px;
     }
@@ -152,7 +160,7 @@ footer {
 
     }
 
-    .video video{
+    .video video {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -163,7 +171,7 @@ footer {
         position: fixed;
     }
 
-   
+
 
     .nome {
         font-size: 6px;
@@ -173,26 +181,26 @@ footer {
 
     }
 
-    h2{
+    h2 {
         position: absolute;
-        left:  110px;
-        bottom: 500px; 
+        left: 110px;
+        bottom: 500px;
         top: 130px;
-        font-size: 18px; 
-        
+        font-size: 18px;
+
     }
 
-    h4{
+    h4 {
         position: absolute;
-        left:  100px;
+        left: 100px;
         top: 150px;
         bottom: 480px;
         font-size: 15px;
-      
-       
+
+
     }
 
-    .link-whatsapp{
+    .link-whatsapp {
         margin-left: 320px;
         bottom: 90px;
         position: fixed;
@@ -204,9 +212,9 @@ footer {
     footer {
         position: fixed;
         background-color: rgb(10, 8, 8);
-      
-      
-       
+
+
+
     }
 
 }
@@ -218,14 +226,14 @@ footer {
 @media (max-width: 740px) {
 
     .inicio {
-        
+
         display: flex;
-        
+
     }
 
     .inicio-1 {
-        
-        font-size: 15px;               
+
+        font-size: 15px;
         margin: 5px 0 5px -11px;
         padding: 10px;
 
@@ -239,7 +247,7 @@ footer {
 
     }
 
-    .nome{
+    .nome {
         font-size: 12px;
         margin: 80px 10px 10px 10px;
     }
@@ -254,7 +262,7 @@ footer {
 
     }
 
-    .video video{
+    .video video {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -265,7 +273,7 @@ footer {
         position: fixed;
     }
 
-   
+
 
     .nome {
         font-size: 6px;
@@ -275,26 +283,26 @@ footer {
 
     }
 
-    h2{
+    h2 {
         position: absolute;
-        left:  110px;
-        bottom: 500px; 
+        left: 110px;
+        bottom: 500px;
         top: 130px;
-        font-size: 18px; 
-        
+        font-size: 18px;
+
     }
 
-    h4{
+    h4 {
         position: absolute;
-        left:  100px;
+        left: 100px;
         top: 150px;
         bottom: 480px;
         font-size: 15px;
-      
-       
+
+
     }
 
-    .link-whatsapp{
+    .link-whatsapp {
         margin-left: 300px;
         bottom: 90px;
         position: fixed;
@@ -306,10 +314,10 @@ footer {
     footer {
         position: fixed;
         background-color: rgb(10, 8, 8);
-      
-      
-       
+
+
+
     }
 
-
 }
+
