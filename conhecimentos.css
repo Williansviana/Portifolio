@@ -52,19 +52,19 @@ body {
 
 
 .html {
-    width: 92%;
+    width: 95%;
     animation: html 3s;
     
 }
 
 .css {
-    width: 85%;
+    width: 89%;
     animation: css 3s;
 
 }
 
 .javascript {
-    width: 17%;
+    width: 27%;
     animation: javascript 3s;
 }
 
