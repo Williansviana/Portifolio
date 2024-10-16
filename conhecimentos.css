@@ -64,7 +64,7 @@ body {
 }
 
 .javascript {
-    width: 27%;
+    width: 37%;
     animation: javascript 3s;
 }
 
@@ -75,7 +75,7 @@ body {
 }
 
 .nodejs {
-    width: 2%;
+    width: 18%;
     animation:nodejs 3s;
 }
 
