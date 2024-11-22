@@ -58,13 +58,13 @@ body {
 }
 
 .css {
-    width: 89%;
+    width: 92%;
     animation: css 3s;
 
 }
 
 .javascript {
-    width: 37%;
+    width: 36%;
     animation: javascript 3s;
 }
 
@@ -75,12 +75,12 @@ body {
 }
 
 .nodejs {
-    width: 18%;
+    width: 12%;
     animation:nodejs 3s;
 }
 
 .react {
-    width: 1%;
+    width: 2%;
     animation:react 3s;
 }
 
